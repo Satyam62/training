@@ -3,13 +3,16 @@ import java.util.Scanner;
 public class Exercise1 {
 
 	public static void main(String[] args) {
-		int s,m;
+		
 		Scanner scanner = new Scanner(System.in);
 		int number=scanner.nextInt();
-		if(n<=18 && n>=1) {
-			System.out.println("Exit door Number is "+n);
+		int digit,sum=0;
+		while(number>0) {
+			digit=number%10;
+			number=number/10;
+			sum=sum+digit;
 		}
-		else
+		System.out.println("Exit Door");
 			
 		
 		
