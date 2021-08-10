@@ -23,7 +23,6 @@ public class OverloadingDemo {
 		hello.write("Hello World");
 		System.out.println(hello.addition(5, 10));
 		System.out.println(hello.addition(5,10,20));
-
 	}
 
 }

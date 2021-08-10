@@ -33,7 +33,7 @@ public class OverridingDemo {
 //		bank.rateOfInterest();
 //		//bank.loan(); // not access child sbi class method
 //		bank.openAccount();
-		Bank bank=new Axis();//upcasting
+		Bank bank=new Axis();//upcasting  (typecast parent to child)
 		bank.rateOfInterest();
 		//bank.loan(); // not access child sbi class method
 		bank.openAccount();	
