@@ -46,9 +46,7 @@ class Customer{
 		System.out.println("Customer : "+custName);
 		System.out.println("Address : "+address.doorNo);
 		System.out.println("Street Name : "+address.streetName);
-
 	}
-	
 }
 class ResidencialDetails{
 	int doorNo;
