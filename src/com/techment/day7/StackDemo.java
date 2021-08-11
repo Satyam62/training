@@ -4,8 +4,7 @@ public class StackDemo {
 
 	public static void main(String[] args) {
 		
-		Stack s1=new Stack();
-		
+		Stack s1=new Stack();		
 		s1.push(1);
 		s1.add(2);
 		s1.push(3);
@@ -18,8 +17,5 @@ public class StackDemo {
 		s1.pop();
 		System.out.println("Elements of Stack : "+s1);
 		s1.pop();
-		System.out.println("Elements of Stack : "+s1);
-
 	}
-
 }
