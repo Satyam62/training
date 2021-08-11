@@ -26,7 +26,7 @@ Create a class TestCustomer with a main method
 •	Create an object of Customer with default constructor. Use setters to assign values to the member variables. Display the values of member variables using getters.
 •	Create an object of Customer using parameterized constructor and display all the details of the customer using getCustomerDetails method
 
-
+================================================================================================================
 2 – Encapsulation & Inheritance
 a)	Create a class Book which has following members:
 	private int bookNo
@@ -42,7 +42,7 @@ additional attribute
 		private String category 	
 Provide setter and getter methods for type instance variable.
 Create an object of the EngineeringBook class  and test.
-
+================================================================================================================
 3 – Inheritance and Abstraction
 Create abstract class PrepaidCard as per the below details
 •	Has attributes CardNo(int), availableBalance(double), swipeLimit(double)
@@ -61,7 +61,7 @@ When TravelCard is swiped, the swiped amount in dollars is converted in to INR a
 
  5 Reward points are given for every 100 INR swiped and added to the instance variable rewardPoints.
 Create a TestCard class. Create objects of TravelCard. Use the travel card by swiping and display the Card details.
- 
+ ================================================================================================================
 4 – Aggregation and Encapsulation
 Pre-requisite:  Completed Assignment 1 
 Copy the classes of Assignment1 in another package and change as per below requirement
@@ -79,7 +79,7 @@ Official Address : Ist Main Electronics city, Bangalore
 
 In TestCustomer Class, create an object of Customer using parameterized constructor(3 parameters) and display details of Customer using getCustomerDetails
 
-
+================================================================================================================
 5 – Inheritance and Abstraction
 Create an abstract class Medicine to represent a drug manufactured by a pharmaceutical company with attributes price and expiry date and a method getDetails() to print them.
 Also include an abstract function displayLabel() in the Medicine class. 
@@ -89,7 +89,7 @@ Derive Tablet, Syrup and Ointment classes from the Medicine class. Override the 
 Create a class TestMedicine with the main method that declares an array of Medicine references of size 5. Create a medicine object of the type Tablet/Syrup/Ointment as decided by a randomly generated integer in the range 1 to 3. (Refer Java API Documentation to find out random number generation)
 Check the polymorphic behavior of the displayLabel() method.
 
-
+================================================================================================================
 
 6 – Interface
 

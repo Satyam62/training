@@ -2,8 +2,7 @@ package com.techment.day8;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
-import java.util.Comparator;
+
 
 class Employee implements Comparable<Employee>
 {
@@ -26,7 +25,7 @@ class Employee implements Comparable<Employee>
 	}
 	
 	public int compareTo(Employee e) {
-		if (this.age==age)
+		if (this.age==e.age)
 			return 0;
 		else if(this.age>e.age) {
 			return 1;
@@ -45,18 +44,16 @@ public class UserDefinedExample {
 		employees.add(new Employee(2, "anil", 45, "manager"));
 		employees.add(new Employee(3, "mahesh", 26, "hr"));
 		employees.add(new Employee(1, "manoj", 30, "developer"));
-		System.out.println("before : ");
+		
+		System.out.println("before sorting on the bases of age : ");
 		for(Employee emp: employees) {
 			System.out.println(emp.id+"  "+emp.name+"  "+emp.age+"  "+emp.dept);
 		}
 		Collections.sort(employees);
-		System.out.println("after : ");
+		System.out.println("after sorting on the bases of age : ");
 		for(Employee emp: employees) {
 			System.out.println(emp.id+"  "+emp.name+"  "+emp.age+"  "+emp.dept);
 		}
-		
-		
-		
 
 	}
 

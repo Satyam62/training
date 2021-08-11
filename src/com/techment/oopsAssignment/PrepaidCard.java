@@ -1,7 +1,21 @@
 package com.techment.oopsAssignment;
 
 public abstract class PrepaidCard {
+	int CardNo;
+	double availableBalance;
+	double swipeLimit;
 	
+	@Override
+	public String toString() {
+		return "PrepaidCard [CardNo=" + CardNo + ", availableBalance=" + availableBalance + ", swipeLimit=" + swipeLimit
+				+ "]";
+	}
+	public void rechargeCard(double amount) {
+		availableBalance+=amount;
+		
+	}
+
+	abstract boolean swipeCard();
 	
 }
 //•	Has attributes CardNo(int), availableBalance(double), swipeLimit(double)
