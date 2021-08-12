@@ -25,7 +25,6 @@ public class Assignment1 {
 		System.out.println("Children : "+children);
 		System.out.println("Adult : "+adult);
 		System.out.println("Senior Citizen : "+senior);
-		
 	}
 
 }
