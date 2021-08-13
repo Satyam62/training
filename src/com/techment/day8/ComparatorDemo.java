@@ -91,7 +91,7 @@ stuList.add(new Student(3, "ankit", 20));
 
 for(Student s :stuList)
 {
-	System.out.println(s);
+	System.out.println(+s);
 }
 System.out.println("============================Sorting by age================");
 
